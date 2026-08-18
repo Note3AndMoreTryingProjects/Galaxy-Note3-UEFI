@@ -1,5 +1,6 @@
 # Galaxy-Note3-uefi
-Still trying to make it work so it works still didnt make it good 
+---
+> ⚠️ **Note:** I haven't been able to successfully get a clean build or extract all files on my local environment yet. If somebody gets this project working and compiles a valid UEFI, please send me the compiled `.img` file or open an Issue/Pull Request to share the file on xda 
 
 This is an experimental, open-source project to compile a UEFI boot environment (Tianocore EDK2) for the Samsung Galaxy Note 3 (Qualcomm Snapdragon 800 / SM-N9005). 
 
