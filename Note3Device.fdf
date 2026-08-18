@@ -1,0 +1,27 @@
+[FD.Note3_EFI]
+BaseAddress   = 0x00000000
+Size          = 0x00200000
+EraseSize     = 0x00001000
+NumBlocks     = 0x200
+
+[FV.FvMain]
+BlockSize          = 0x00001000
+NumBlocks          = 0x200
+FvAlignment        = 16
+ERASE_POLARITY     = 1
+MEMORY_MAPPED      = TRUE
+STICKY_WRITE       = TRUE
+LOCK_CAP           = TRUE
+LOCK_STATUS        = TRUE
+WRITE_DISABLED_CAP = TRUE
+WRITE_ENABLED_CAP  = TRUE
+WRITE_STATUS       = TRUE
+WRITE_LOCK_CAP     = TRUE
+WRITE_LOCK_STATUS  = TRUE
+READ_DISABLED_CAP  = TRUE
+READ_ENABLED_CAP   = TRUE
+READ_STATUS        = TRUE
+READ_LOCK_CAP      = TRUE
+READ_LOCK_STATUS   = TRUE
+
+INF MdeModulePkg/Application/HelloWorld/HelloWorld.inf
