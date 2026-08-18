@@ -67,3 +67,8 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# EDK2 and UEFI Specific extensions
+*.aml
+edk2/
+Conf/
